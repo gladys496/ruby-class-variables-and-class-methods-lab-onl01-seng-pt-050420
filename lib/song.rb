@@ -36,6 +36,7 @@ end
         genre_hash[genre] = 1
         end 
       end 
+    end 
 
   
 
