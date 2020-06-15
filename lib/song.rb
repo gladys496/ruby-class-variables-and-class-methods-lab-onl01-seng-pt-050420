@@ -20,7 +20,12 @@ def self.count
   @@count
 end 
 def self.artist
-  @@artists
+  @@artists.uniq 
+end 
+
+def self.genre 
+  @@genres.uniq 
+end 
   
  end 
 
