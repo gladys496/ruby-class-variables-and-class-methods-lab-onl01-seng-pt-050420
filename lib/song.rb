@@ -5,9 +5,8 @@ class Song
   @@album_count = 0 
   
   def initialize (name)
-    @name
-    @artist
-    @genre
+    @name = name 
+    
    end
 end
 
