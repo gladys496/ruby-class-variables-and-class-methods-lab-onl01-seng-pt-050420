@@ -1,5 +1,5 @@
 class Song
-  @@plays = 0
+  @@
 
   attr_accessor :name, :artist, :genre
   
