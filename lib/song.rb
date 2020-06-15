@@ -27,7 +27,8 @@ def self.genres
   @@genres.uniq 
 end 
   
-  def self.genre
+  def self.genre_count 
+    
  end 
 
   
