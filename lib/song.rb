@@ -31,7 +31,7 @@ end
     @@artists << artist 
     @@genres << genre 
   end 
-  
+end 
   
     
 
