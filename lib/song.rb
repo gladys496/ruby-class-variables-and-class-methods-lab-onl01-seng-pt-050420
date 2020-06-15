@@ -1,5 +1,5 @@
 class Song
-  @@
+  @@album
 
   attr_accessor :name, :artist, :genre
   
