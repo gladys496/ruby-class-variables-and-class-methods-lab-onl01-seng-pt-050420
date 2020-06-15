@@ -8,10 +8,5 @@ class Song
     @name
     @artist
     @genre
-    @@album_count += 1
-  end
- 
-  def self.count
-    @@album_count
-  end
+   end
 end
