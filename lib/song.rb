@@ -33,7 +33,9 @@ end
       if genre_hash[genre]
         genre_hash[genre] += 1
       else 
+        genre_hash[genre] = 0 
         end 
+      end 
 
   
 
