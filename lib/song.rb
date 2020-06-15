@@ -12,18 +12,8 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
- end 
- def self.count
-    @@count
-  end
-  
-  def self.genres 
-    @@genres 
   end 
-  
-  
  end 
- 
 
   
 
