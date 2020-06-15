@@ -28,10 +28,13 @@ end
     end 
     
     def self.artist_count
-      artist_count = {}
-      @@artists.each do |artist|
-        
-      
+      artist_hash = {}
+      @@artists.each do {|artist|
+      artist_hash[artist] ||= 0 
+      artist_hash[artist] += 1 
+      }
+      artist_hash
+    end 
  
   
    attr_accessor :name, :artist, :genre
