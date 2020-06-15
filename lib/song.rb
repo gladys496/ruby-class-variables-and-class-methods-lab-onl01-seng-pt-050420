@@ -31,7 +31,8 @@ end
     genre_hash = {} 
     @@genres.each do |genre|
       if genre_hash[genre]
- end 
+        genre_hash += 1  
+        end 
 
   
 
