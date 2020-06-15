@@ -6,23 +6,10 @@ class Song
   @@genres = []
   @@artists = []
   
-  
-   attr_accessor :name, :artist, :genre
- 
- 
-  def initialize(name, artist, genre)
-    @@count += 1 
-    @name = name
-    @artist = artist
-    @genre = genre
-    @@artists << artist 
-    @@genres << genre 
-  end 
-  
-  
-def self.count 
+  def self.count 
   @@count
 end 
+
 def self.artists
   @@artists.uniq 
 end 
@@ -40,7 +27,21 @@ end
         genre_hash[genre] = 1
         end 
       end 
-    end 
+  
+   attr_accessor :name, :artist, :genre
+ 
+ 
+  def initialize(name, artist, genre)
+    @@count += 1 
+    @name = name
+    @artist = artist
+    @genre = genre
+    @@artists << artist 
+    @@genres << genre 
+  end 
+  
+  
+    
 
   
 
